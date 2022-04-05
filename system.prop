@@ -28,6 +28,9 @@ ro.vendor.use_data_netmgrd=true
 # Dalvik
 dalvik.vm.dex2oat64.enabled=true
 
+# Disable remote keyguard animation
+persist.wm.enable_remote_keyguard_animation=0
+
 # Display post-processing
 ro.qualcomm.cabl=0
 ro.vendor.display.ad=1
