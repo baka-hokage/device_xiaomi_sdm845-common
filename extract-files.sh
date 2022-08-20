@@ -37,6 +37,9 @@ function blob_fixup() {
         vendor/lib/camera/components/com.qti.node.watermark.so)
             ${PATCHELF} --add-needed "libpiex-v29.so" "${2}"
             ;;
+        vendor/lib/camera/components/com.mi.node.watermark.so)
+            "${PATCHELF}" --add-needed "lib-watermarkshim.so" "${2}"
+            ;;
     esac
 }
 
