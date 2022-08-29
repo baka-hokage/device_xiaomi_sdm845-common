@@ -361,6 +361,7 @@ PRODUCT_PACKAGES += \
     ims-ext-common \
     ims_ext_common.xml \
     lib-imsvtshim \
+    lib-imsvtshim:64 \
     qti-telephony-hidl-wrapper \
     qti_telephony_hidl_wrapper.xml \
     qti-telephony-utils \
