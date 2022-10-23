@@ -447,5 +447,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/com.google.android.apps.dialer.call_recording_audio.features.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.google.android.apps.dialer.call_recording_audio.features.xml
 
+# Blur
+TARGET_ENABLE_BLUR := true
+
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/sdm845-common/sdm845-common-vendor.mk)
