@@ -134,6 +134,7 @@ persist.data.iwlan.ipsec.ap=1
 persist.sys.cust.lte_config=true
 persist.radio.VT_ENABLE=1
 persist.radio.volte.dan_support=true
+persist.vendor.qti.telephony.vt_cam_interface=2
 
 # Some Tweaks
 persist.rmnet.data.enable=true
