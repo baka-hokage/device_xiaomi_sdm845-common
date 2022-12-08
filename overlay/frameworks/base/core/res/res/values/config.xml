@@ -442,4 +442,7 @@
 
     <!-- Default value for LED off time when the battery is low on charge in miliseconds -->
     <integer name="config_notificationsBatteryLedOff">509</integer>
+
+    <!-- Enable Zram writeback feature to allow unused pages in zram be written to flash. -->
+    <bool name="config_zramWriteback">true</bool>
 </resources>
