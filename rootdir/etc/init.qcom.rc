@@ -105,6 +105,10 @@ on post-fs
     # make the selinux kernel policy world-readable
     chmod 0444 /sys/fs/selinux/policy
 
+    # Dolby
+    mkdir /data/vendor/dolby 0770 media media
+    mkdir /data/vendor/multimedia 0775 system system
+
 on early-boot
     # Set RLIMIT_MEMLOCK to 64MB
     setrlimit 8 67108864 67108864
